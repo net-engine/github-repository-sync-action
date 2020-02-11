@@ -5,7 +5,6 @@ on: # rebuild any PRs and main branch changes
     branches:
       - master
       - add-action-test
-      - 'releases/*'
 
 jobs:
   test: # make sure the action works on a clean machine without building
@@ -18,5 +17,3 @@ jobs:
       with:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         target_repo_url: git@github.com:net-engine/github-action-repository-sync-test.git
-        source_branch: remotes/origin/master
-        target_branch: master
