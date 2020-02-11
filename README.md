@@ -1,4 +1,4 @@
-<p align="center">
+gs<p align="center">
   <a href="https://github.com/net-engine/github-repository-sync-action"><img alt="GitHub action build status" src="https://github.com/net-engine/github-repository-sync-action/workflows/test/badge.svg"></a>
 </p>
 
@@ -40,4 +40,4 @@ source repository and branch to any destination, or copying all branches.
 
 # License
 
-The scripts and documentation in this project are released under the [MIT License](LICENSE)
+The scripts and documentation in this project are released under the [MIT License](LICENSE.md)
