@@ -1,6 +1,9 @@
 name: Git Repository Sync
 description: Sync current repository to a remote repository on GitHub, GitLab, AWS CodeCommit, etc.
 author: NetEngine
+branding:
+  icon: upload-cloud
+  color: blue
 inputs:
   ssh_private_key:
     description: SSH private key for ssh connection to the target repository
