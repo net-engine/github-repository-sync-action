@@ -1,0 +1,19 @@
+name: "build-test"
+on: # rebuild any PRs and main branch changes
+  pull_request:
+  push:
+    branches:
+      - master
+      - 'releases/*'
+
+jobs:
+  test: # make sure the action works on a clean machine without building
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ./
+      with:
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        target_repo_url: git@github.com:net-engine/github-action-repository-sync-test.git
+        source_branch: master
+        target_branch: master
