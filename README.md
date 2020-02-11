@@ -1,12 +1,14 @@
-gs<p align="center">
-  <a href="https://github.com/net-engine/github-repository-sync-action"><img alt="GitHub action build status" src="https://github.com/net-engine/github-repository-sync-action/workflows/test/badge.svg"></a>
+<p align="center">
+  <a href="https://github.com/net-engine/github-repository-sync-action">
+    <img alt="GitHub Action build status" src="https://github.com/net-engine/github-repository-sync-action/workflows/test/badge.svg">
+  </a>
 </p>
 
 # Git Repository Sync Action
 
 This action pushes all commits in the branch that this action is run on into any remote git repository.
 
-Check out a [sample workflow](https://github.com/net-engine/github-repository-sync-action/blob/master/.github/workflows/test.yml).
+Check out a [sample workflow](.github/workflows/test.yml).
 
 ## Usage
 
@@ -37,6 +39,7 @@ source repository and branch to any destination, or copying all branches.
 
 * Support for any to and from branch, similar to [actions/checkout@v2](https://github.com/actions/checkout)
 * Make SSH key-based authentication optional to support username/password authentication
+* Support for the [pull_request event](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request)
 
 # License
 
