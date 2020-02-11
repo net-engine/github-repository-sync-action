@@ -19,8 +19,3 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.ssh_private_key }}
-    - ${{ inputs.source_branch }}
-    - ${{ inputs.target_branch }}
-    - ${{ inputs.target_repo_url }}
