@@ -39,7 +39,7 @@ source repository and branch to any destination, or copying all branches.
 
 * Support for any to and from branch, similar to [actions/checkout@v2](https://github.com/actions/checkout)
 * Make SSH key-based authentication optional to support username/password authentication
-* Support for the [pull_request event](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request)
+* Support for the `pull_request` [event](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request)
 
 # License
 
