@@ -15,4 +15,4 @@ jobs:
     - uses: ./
       with:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        target_repo_url: git@github.com:net-engine/github-action-repository-sync-test.git
+        target_repo_url: git@github.com:net-engine/github-repository-sync-action-test.git
