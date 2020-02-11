@@ -11,4 +11,4 @@ echo "Refs"
 git show-ref
 ssh -vT git@github.com
 git remote add destination "$INPUT_TARGET_REPO_URL"
-git push destination "$GITHUB_REF:$INPUT_TARGET_BRANCH" -f
+git push destination "$GITHUB_REF:$GITHUB_REF" -f
