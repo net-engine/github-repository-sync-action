@@ -5,9 +5,6 @@ mkdir -p /root/.ssh
 echo "$INPUT_SSH_PRIVATE_KEY" > /root/.ssh/id_rsa
 chmod 600 /root/.ssh/id_rsa
 
-mkdir -p ~/.ssh
-cp /root/.ssh/* ~/.ssh/ 2> /dev/null || true
-
 echo "Branches"
 git branch -a
 echo "Refs"
