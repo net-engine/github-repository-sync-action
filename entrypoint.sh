@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 # Setup SSH
-mkdir /root/.ssh/id_rsa
+mkdir -p /root/.ssh
 echo "$INPUT_SSH_PRIVATE_KEY" > /root/.ssh/id_rsa
 chmod 600 /root/.ssh/id_rsa
 
