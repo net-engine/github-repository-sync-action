@@ -1,0 +1,26 @@
+name: Git Repository Sync
+description: Sync current repository to a remote repository on GitHub, GitLab, AWS CodeCommit, etc.
+author: NetEngine
+inputs:
+  ssh_private_key:
+    description: SSH private key for ssh connection to the target repository
+    required: false
+  source_branch:
+    description: The branch from this repository that you want to push to the remote
+    required: false
+    default: master
+  target_branch:
+    description: The branch from the remote repository that you want to push the source_branch to
+    required: false
+    default: master
+  target_repo_url:
+    description: Target git repository URL
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.ssh_private_key }}
+    - ${{ inputs.source_branch }}
+    - ${{ inputs.target_branch }}
+    - ${{ inputs.target_repo_url }}
