@@ -5,10 +5,6 @@ inputs:
   ssh_private_key:
     description: SSH private key for ssh connection to the target repository
     required: false
-  source_branch:
-    description: The branch from this repository that you want to push to the remote
-    required: false
-    default: master
   target_branch:
     description: The branch from the remote repository that you want to push the source_branch to
     required: false
