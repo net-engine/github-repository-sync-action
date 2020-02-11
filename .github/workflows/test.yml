@@ -1,9 +1,6 @@
 name: "test"
 on:
-  pull_request:
   push:
-    branches:
-      - master
 
 jobs:
   test: # make sure the action works on a clean machine without building
