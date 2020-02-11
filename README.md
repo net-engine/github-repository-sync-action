@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/net-engine/github-action-repository-sync"><img alt="typescript-action status" src="https://github.com/net-engine/github-action-repository-sync/workflows/build-test/badge.svg"></a>
+  <a href="https://github.com/net-engine/github-action-repository-sync"><img alt="GitHub action build status" src="https://github.com/net-engine/github-action-repository-sync/workflows/build-test/badge.svg"></a>
 </p>
 
 # Git Repository Sync Action
@@ -17,9 +17,12 @@ Inspired by the following actions
 
 **Required** The name of the person to greet. Default `"World"`.
 
-
 ## Example usage
 
 uses: actions/hello-world-docker-action@v1
 with:
   who-to-greet: 'Mona the Octocat'
+
+## TODO
+
+* Support for any branch, similar to [actions/checkout@v2](https://github.com/actions/checkout)
