@@ -25,9 +25,15 @@ Inspired by the following actions
 
 ## Example usage
 
+Be sure to run the [`actions/checkout`](https://github.com/actions/checkout) action in a step before
+this action so that the git repository exists.
+
+```yaml
 uses: netengine/github-repository-sync-action
 with:
-  who-to-greet: 'Mona the Octocat'
+  ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+  target_repo_url: git@github.com:net-engine/github-repository-sync-action-test.git
+```
 
 ## TODO
 
