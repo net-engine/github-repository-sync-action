@@ -9,5 +9,6 @@ echo "Branches"
 git branch -a
 echo "Refs"
 git show-ref
+ssh -vT git@github.com
 git remote add destination "$INPUT_TARGET_REPO_URL"
 git push destination "$INPUT_SOURCE_BRANCH:$INPUT_TARGET_BRANCH" -f
