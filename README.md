@@ -17,7 +17,7 @@ this action so that the git repository is initialized.
 
 ```yaml
 # File: .github/workflows/mirror.yml
-- uses: net-engine/github-repository-sync-action@v1
+- uses: net-engine/github-repository-sync-action@v1.2.0
   with:
     # The SSH private key for SSH connection to the target repository.
     # We strongly recommend saving this value as a GitHub Secret and using deploy
