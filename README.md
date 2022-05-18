@@ -41,6 +41,6 @@ source repository and branch to any destination, or copying all branches.
 * Make SSH key-based authentication optional to support username/password authentication
 * Support for the `pull_request` [event](https://help.github.com/en/actions/reference/events-that-trigger-workflows#pull-request-event-pull_request)
 
-# License
+# License123
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE.md)
