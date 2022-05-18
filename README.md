@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Git Repository Sync Action
+# Git Repository Sync Action1
 
 This action pushes all commits in the branch that this action is run on into any remote git repository.
 
