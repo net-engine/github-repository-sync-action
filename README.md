@@ -27,7 +27,7 @@ this action so that the git repository is initialized.
     target_repo_url: git@github.com:net-engine/github-repository-sync-action-test.git
 ```
 
-## Notes
+## Notes123
 
 Inspired by the following actions which may be more suitable for your workflow, e.g. syncing any
 source repository and branch to any destination, or copying all branches.
